@@ -20,20 +20,19 @@ This script will overcome that issue to makes drawable folder content is exact s
 make sure you have nodejs and python v2.7 installed
 
 * clone this repo
-* execute this command
-    npm install
+* execute this command `npm install` to install all dependencies
 
 if you encountered a problem related to node-gyp please refer to this https://github.com/nodejs/node-gyp#installation
 
 #### Usage
 
-    nodejs ayase.js <base folder> <destination folder> --no-resize (opt)
+    nodejs ayase.js <base folder> <destination folder> --no-resize (optional)
 
 base folder is the 'master' folder and destination folder is the 'slave'
 so if the resource is missing on slave but existed on master, it will copy the resource from master to slave
 
-use '--no-resize' option if you don't want to copied image to be resized
+use `--no-resize` option if you don't want to copied image to be resized
 this is useful if your master folder size is lower than slave folder to avoid blurring
 for example base folder: drawable-mdpi, destination folder drawable-xhdpi
 
-you can run this script multiple times and do not forget to switch base folder and destination folder to make sure everything is same 
+you can run this script multiple times and do not forget to switch base folder and destination folder to make sure everything is same
