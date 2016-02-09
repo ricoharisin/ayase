@@ -1,14 +1,12 @@
 {
   "name": "ayase",
-  "version": "0.8.0",
+  "version": "0.2.0",
   "description": "simple script to check content on drawable",
   "main": "ayase.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "ricoharisin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+      "lwip" : "~0.0.8",
+      "quickly-copy-file" : "~0.1.0"
+  }
 }
